@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "498273026703",
+    "firebase_url": "https://scapholdpushtutorial.firebaseio.com",
+    "project_id": "scapholdpushtutorial",
+    "storage_bucket": "scapholdpushtutorial.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498273026703:android:aa44dfc9308872a1",
+        "android_client_info": {
+          "package_name": "com.scaphold.scapholdpushtutorial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "498273026703-l2gpa05n96qil85h5l9rq4vk09eo1vm8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlebSq0294aKSODB4f1OvO94ZV3GHQ2T4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

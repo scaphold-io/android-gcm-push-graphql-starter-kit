@@ -1,0 +1,57 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .DS_Store
+* .idea/
+* .idea/.name
+* .idea/ScapholdPushTutorial.iml
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/encodings.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/workspace.xml
+* README.txt
+* ic_launcher-web.png
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+* src/.DS_Store => app/src/main/resources/.DS_Store
+* src/.idea/.name => app/src/main/resources/.idea/.name
+* src/.idea/compiler.xml => app/src/main/resources/.idea/compiler.xml
+* src/.idea/copyright/profiles_settings.xml => app/src/main/resources/.idea/copyright/profiles_settings.xml
+* src/.idea/encodings.xml => app/src/main/resources/.idea/encodings.xml
+* src/.idea/misc.xml => app/src/main/resources/.idea/misc.xml
+* src/.idea/modules.xml => app/src/main/resources/.idea/modules.xml
+* src/.idea/src.iml => app/src/main/resources/.idea/src.iml
+* src/.idea/workspace.xml => app/src/main/resources/.idea/workspace.xml
+* src/com/.DS_Store => app/src/main/resources/com/.DS_Store
+* src/com/scaphold/.DS_Store => app/src/main/resources/com/scaphold/.DS_Store
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

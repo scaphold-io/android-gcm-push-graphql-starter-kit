@@ -1,0 +1,871 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:8:1-67:12
+	package
+		ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:9:5-48
+		INJECTED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:11:5-30
+		INJECTED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:10:5-28
+		INJECTED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:8:11-69
+uses-sdk
+ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:13:5-15:41
+MERGED from [com.android.support:appcompat-v7:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-fragment:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-vector-drawable:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-v4:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-fragment:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.android.gms:play-services-gcm:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/10.0.1/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-base:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-fragment:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-fragment:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-fragment:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.android.gms:play-services-iid:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/10.0.1/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-base:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-fragment:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-fragment:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-fragment:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.firebase:firebase-core:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-core/10.0.1/AndroidManifest.xml:4:5-42
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-fragment:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.firebase:firebase-common:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-fragment:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-fragment:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-fragment:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-fragment:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.firebase:firebase-common:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-fragment:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-fragment:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.firebase:firebase-common:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-fragment:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-fragment:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:15:9-38
+		INJECTED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:14:9-34
+		INJECTED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:17:5-67
+MERGED from [com.google.android.gms:play-services-gcm:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/10.0.1/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/10.0.1/AndroidManifest.xml:21:5-66
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:17:22-64
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:18:5-71
+	android:name
+		ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:18:22-68
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:19:5-68
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:19:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:21:5-82
+MERGED from [com.google.android.gms:play-services-gcm:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/10.0.1/AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/10.0.1/AndroidManifest.xml:20:5-81
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:21:22-79
+uses-permission#com.google.android.c2dm.permission.REGISTER
+ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:22:5-83
+	android:name
+		ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:22:22-80
+uses-permission#com.scaphold.scapholdpushtutorial.permission.C2D_MESSAGE
+ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:23:5-96
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:23:22-93
+permission#com.scaphold.scapholdpushtutorial.permission.C2D_MESSAGE
+ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:25:5-27:47
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:27:9-44
+	android:name
+		ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:26:9-80
+application
+ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:29:5-66:19
+MERGED from [com.android.support:appcompat-v7:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-vector-drawable:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-gcm:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/10.0.1/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-base:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-iid:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/10.0.1/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-base:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.firebase:firebase-core:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-core/10.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.firebase:firebase-common:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:28:5-50:19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.firebase:firebase-common:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.firebase:firebase-common:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:32:9-41
+	android:allowBackup
+		ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:30:9-35
+	android:icon
+		ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:31:9-45
+	android:theme
+		ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:33:9-40
+activity#com.scaphold.scapholdpushtutorial.ScapholdPushTutorial
+ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:34:9-43:20
+	android:label
+		ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:36:13-45
+	android:launchMode
+		ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:37:13-43
+	android:name
+		ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:35:13-82
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:38:13-42:29
+action#android.intent.action.MAIN
+ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:39:17-69
+	android:name
+		ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:39:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:41:17-77
+	android:name
+		ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:41:27-74
+service#com.scaphold.scapholdpushtutorial.MessageReceivingService
+ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:45:9-53:19
+	android:label
+		ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:47:13-86
+	android:name
+		ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:46:13-85
+intent-filter#com.scaphold.scapholdpushtutorial+com.scaphold.scapholdpushtutorial.ExternalReceiver+com.scaphold.scapholdpushtutorial.ScapholdPushTutorial
+ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:48:13-52:29
+action#com.scaphold.scapholdpushtutorial.ScapholdPushTutorial
+ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:49:17-97
+	android:name
+		ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:49:25-94
+action#com.scaphold.scapholdpushtutorial.ExternalReceiver
+ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:50:17-93
+	android:name
+		ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:50:25-90
+category#com.scaphold.scapholdpushtutorial
+ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:51:17-78
+	android:name
+		ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:51:27-75
+receiver#com.scaphold.scapholdpushtutorial.ExternalReceiver
+ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:55:9-65:20
+	android:permission
+		ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:57:13-73
+	android:name
+		ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:56:13-78
+intent-filter#com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTER+com.google.android.c2dm.intent.REGISTRATION+com.scaphold.scapholdpushtutorial
+ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:58:13-64:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:59:17-81
+	android:name
+		ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:59:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:60:17-86
+	android:name
+		ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:60:25-83
+action#com.google.android.c2dm.intent.REGISTER
+ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:61:17-82
+	android:name
+		ADDED from /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/src/main/AndroidManifest.xml:61:25-79
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/AndroidManifest.xml:19:9-172
+MERGED from [com.google.android.gms:play-services-base:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:20:20-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:21:22-76
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:27:162-184
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:32:16-87
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/AndroidManifest.xml:6:9-194
+MERGED from [com.google.firebase:firebase-common:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/AndroidManifest.xml:6:9-194
+MERGED from [com.google.firebase:firebase-common:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/AndroidManifest.xml:6:79-143
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:30:9-36:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:31:13-35:29
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:34:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:34:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:40:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:40:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:40:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:44:9-48:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:44:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:44:18-82
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:45:13-47:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:45:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:46:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/Vincent/AndroidProjects/ScapholdPushTutorial/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:46:25-77
